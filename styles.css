@@ -1,0 +1,159 @@
+/* Color Palette Variables */
+:root {
+    --navy: #003366;
+    --gray: #f4f4f4;
+    --accent: #128193; /* Teal accent */
+    --white: #ffffff;
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    background: var(--white);
+  }
+  h1, h2, h3, h4 {
+    font-family: 'Lato', sans-serif;
+    margin-top: 0;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1.5em;
+    color: var(--navy);
+    margin-bottom: 0.5em;
+    /* Underline accent bar under section headings */
+    border-bottom: 2px solid var(--accent);
+    display: inline-block;
+    padding-bottom: 4px;
+  }
+  h3 {
+    font-size: 1.2em;
+    color: var(--navy);
+    margin: 0.5em 0 0.2em;
+  }
+  .date-location, h4 {
+    font-size: 1em;
+    font-weight: 600;
+    color: #555;
+    margin: 0 0 1em;
+  }
+  p {
+    margin: 0 0 1em;
+  }
+  ul {
+    margin: 0 0 1.5em 1.2em; /* indent the bullet list a bit */
+  }
+  ul li {
+    margin-bottom: 0.5em;
+  }
+  
+  /* Layout Containers */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Header and Navigation */
+  .site-header {
+    background: var(--navy);
+    color: var(--white);
+  }
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+  }
+  .site-header h1 {
+    margin: 0;
+    color: var(--white);
+    font-size: 1.8em;
+  }
+  .site-nav a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 20px;
+  }
+  .site-nav a:first-child {
+    margin-left: 0;
+  }
+  .site-nav a:hover {
+    color: var(--accent);
+  }
+  .nav-toggle {
+    display: none;
+    font-size: 1.5em;
+    background: none;
+    border: none;
+    color: var(--white);
+    cursor: pointer;
+  }
+  
+  /* Section Styling */
+  section {
+    padding: 60px 0;
+  }
+  section:nth-of-type(even) {
+    background: var(--gray);
+  }
+  /* Contact section with accent background */
+  #contact {
+    background: var(--accent);
+    color: var(--white);
+  }
+  #contact h2 {
+    color: var(--white);
+    border-bottom-color: var(--white);
+  }
+  #contact a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  #contact a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  .site-footer {
+    background: var(--navy);
+    color: var(--white);
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9em;
+  }
+  .site-footer a {
+    color: var(--white);
+    text-decoration: none;
+  }
+  
+  /* Responsive Design: Mobile Styles */
+  @media (max-width: 600px) {
+    .header-content {
+      flex-wrap: wrap;
+    }
+    .nav-toggle {
+      display: block;
+    }
+    .site-nav {
+      display: none;              /* hide nav links by default on mobile */
+      flex-direction: column;
+      width: 100%;
+      margin-top: 10px;
+    }
+    .site-nav.open {
+      display: flex;              /* show nav links when .open is added */
+    }
+    .site-nav a {
+      margin: 10px 0;
+      margin-left: 0;
+    }
+  }
+  

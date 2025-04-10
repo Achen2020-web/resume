@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anthony Chen - Resume</title>
+  <!-- Google Fonts for typography -->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Link to external CSS stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header with Name and Navigation -->
+  <header class="site-header">
+    <div class="container header-content">
+      <h1>Anthony Chen</h1>
+      <nav class="site-nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#leadership">Leadership</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <!-- Hamburger menu button for mobile -->
+      <button class="nav-toggle" aria-label="Toggle navigation menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2>About</h2>
+        <p>Hello! I'm <strong>Anthony Chen</strong>, a passionate Information Technology student at the University of Minnesota, Twin Cities. I'm pursuing a B.A.S. in <em>Information Technology Infrastructure</em> (with a minor in Computer Science) and expect to graduate in May 2026. I have hands-on experience in technical support and data analysis from my roles at the university and an IT internship, and I even run my own car detailing business.</p>
+        <p>I'm driven by a love for technology and problem-solving. Whether I'm mentoring peers on tech issues, building dashboards to visualize data, or organizing operations for student events, I enjoy creating solutions that make a difference. I'm currently seeking opportunities to apply my skills in IT infrastructure and data analytics in a professional setting.</p>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <p><strong>Programming Languages:</strong> Python, Java, SQL, Excel VBA, C, R</p>
+        <p><strong>Tools &amp; Technologies:</strong> Microsoft Office, Google Suite, TeamDynamix, Webex, Microsoft Azure, Power BI, ServiceNow, Microsoft SQL Server, AWS</p>
+        <p><strong>Certifications:</strong> IBM Machine Learning, Google Data Analytics, SQL Basics for Data Science, IBM Data Science</p>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+      <div class="container">
+        <h2>Experience</h2>
+        <!-- Job 1 -->
+        <div class="job">
+          <h3>Technology Help Specialist Mentor – University of Minnesota</h3>
+          <p class="date-location">November 2023 – Present | Minneapolis, MN</p>
+          <ul>
+            <li>Provide technical support to students, faculty, and staff, addressing a range of hardware and software issues in person, over the phone, and via email.</li>
+            <li>Troubleshoot and resolve technology-related problems, including computer software, hardware, and network issues.</li>
+            <li>Conduct one-on-one training sessions to help users become proficient with various software applications and digital tools.</li>
+            <li>Collaborate with a team of technology specialists to develop and implement solutions for common technical challenges.</li>
+          </ul>
+        </div>
+        <!-- Job 2 -->
+        <div class="job">
+          <h3>TechServices Intern – Donaldson Company</h3>
+          <p class="date-location">May 2024 – August 2024 | Bloomington, MN</p>
+          <ul>
+            <li>Developed a Power BI dashboard to monitor and visualize data usage across company servers, improving insights for storage management and capacity planning.</li>
+            <li>Collaborated with global IT teams to integrate server usage data from multiple systems (including Oracle and MS SQL) into a unified view of the IT infrastructure.</li>
+            <li>Analyzed server utilization trends to predict future storage needs, enabling timely upgrades and optimizations that prevented system overloads.</li>
+            <li>Automated system alerts through scripting to proactively address potential issues, increasing system reliability and reducing downtime.</li>
+          </ul>
+        </div>
+        <!-- Job 3 -->
+        <div class="job">
+          <h3>Founder – AC Detailing &amp; Cleaning</h3>
+          <p class="date-location">May 2024 – Present | Minneapolis, MN</p>
+          <ul>
+            <li>Manage and operate a vehicle detailing business, including implementing scheduling systems to streamline workflows (resulting in a 20% increase in operational efficiency).</li>
+            <li>Develop and maintain a client database to track customer preferences and service history, personalizing offerings and improving client satisfaction.</li>
+            <li>Utilize data-driven marketing strategies on social media platforms to drive a 40% growth in customer acquisition and retention.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+      <div class="container">
+        <h2>Education</h2>
+        <h3>University of Minnesota – Twin Cities</h3>
+        <p><strong>B.A.S. in Information Technology Infrastructure</strong>, Minor in Computer Science (Expected May 2026)</p>
+        <p><strong>Relevant Courses:</strong> Machine Architecture, Security I &amp; II, Algorithms and Data Structures</p>
+      </div>
+    </section>
+
+    <!-- Leadership Section -->
+    <section id="leadership">
+      <div class="container">
+        <h2>Leadership</h2>
+        <h3>Director of Operations – UMN Business Association of Multicultural Students (BAM)</h3>
+        <p class="date-location">January 2024 – Present | Minneapolis, MN</p>
+        <ul>
+          <li>Manage and coordinate logistics of event catering and food delivery services for the organization across the metropolitan area.</li>
+          <li>Oversee partnerships with vendors to ensure a diverse and reliable supply of food products for events.</li>
+          <li>Cultivate relationships with vendors and clients to expand the network and secure ongoing contracts for large-scale events.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p><strong>Email:</strong> <a href="mailto:chen8235@umn.edu">chen8235@umn.edu</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/anthony-chen05" target="_blank" rel="noopener">linkedin.com/in/anthony-chen05</a></p>
+        <p><strong>Phone:</strong> (507) 404-0009</p>
+        <p><strong>Location:</strong> Minneapolis, MN</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Anthony Chen. Made with &hearts; in HTML &amp; CSS.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript for mobile menu toggle -->
+  <script>
+    const navToggle = document.querySelector('.nav-toggle');
+    const navMenu = document.querySelector('.site-nav');
+    navToggle.addEventListener('click', () => {
+      navMenu.classList.toggle('open');
+    });
+    // Close the menu when a nav link is clicked (for better UX on one-page mobile view)
+    document.querySelectorAll('.site-nav a').forEach(link => {
+      link.addEventListener('click', () => {
+        navMenu.classList.remove('open');
+      });
+    });
+  </script>
+</body>
+</html>
